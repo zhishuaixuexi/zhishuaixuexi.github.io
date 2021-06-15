@@ -42,7 +42,8 @@ Mad scientist at work!
 ```
 
 
-```安装步骤
+```note
+安装步骤
 jekyll的环境在本地电脑安装就可以了，不需要在部署博客的服务器上安装。看后面的流程就明白了，写博客的流程是在本地电脑书写markdown文件，然后编译生成静态web文件。最后是把这些文件上传到服务器上的web容器（nginx，tomcat等）运行即可。
 
 我的环境是 win10
@@ -66,7 +67,8 @@ ruby dk.rb install  # 安装
 ```
 
 
-```安装jekyll
+```note
+安装jekyll
 gem install jekyll
 安装bundler
 gem install bundler -v 1.17.3
